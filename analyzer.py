@@ -70,7 +70,8 @@ def analyze_version(versionGuid):
     print("")
     # print("=== scanning for c++ fastflags ===")
 
-    binary = open(f"{baseDirectory}/RobloxStudioBeta.exe", "rb").read()
+    with open(f"{baseDirectory}/RobloxStudioBeta.exe", "rb") as file:
+        binary = file.read()
     binaryLength = len(binary)
 
     print(f"RobloxStudioBeta.exe is {binaryLength:,} bytes long")
