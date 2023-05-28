@@ -1,8 +1,10 @@
 # roblox-fastvariable-tracker
 
-tool that spits out all the fastvariables in a specific roblox version, designed for constant tracking overtime to easily see what new stuff roblox is working on, etc
+tool that spits out all the fastvariables in a specific roblox studio version, designed for constant tracking overtime to easily see what new stuff roblox is working on, etc
 
-loosely inspired by [maximumadhd's roblox client tracker](https://github.com/MaximumADHD/Roblox-Client-Tracker) though this focuses specifically on fastvariables, tracks lua ones too, and isn't restricted to being run on windows
+loosely inspired by [maximumadhd's roblox client tracker](https://github.com/MaximumADHD/Roblox-Client-Tracker) though this focuses specifically on fastvariables, tracks lua ones too, as well as fastlog vars, and isn't restricted to being run on windows
+
+because this is specific to studio this won't capture every fastvariable that exists, but it'll capture most ones
 
 this is basically my piss poor attempt at binary reverse engineering in over a year since i have to navigate through x86 assembly for this, though figuring out stuff was fun
 
