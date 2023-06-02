@@ -16,4 +16,4 @@ here's what the files do:
 
 btw if you wanna set up the tracker you'll have to manually prepare it first by putting the info for the latest version into state.json and using analyzer-test.py to get the variables for it
 
-currently set up to deliver notifications to a webhook in the [latte softworks](https://latte.to) discord server ([#fastvariables](https://discord.com/channels/892211155303538748/1112095036876783638))
+currently set up to upload the full list of variables as a [github gist](https://gist.github.com/pizzaboxer/a627b8e9f41353fb251a54517378d662) as well as deliver notifications to a webhook in the [latte softworks](https://latte.to) discord server ([#fastvariables](https://discord.com/channels/892211155303538748/1112095036876783638))
