@@ -131,12 +131,17 @@ while True:
     if len(webhookUrl):
         print("publishing to discord...", flush=True, end="")
 
+        notifier = "<@&1113215556804411484>"
+
+        if len(addedFlags) + len(removedFlags) == 0:
+            notifier = ""
+
         message = '\n'.join(messageLines)
 
         if len(message) > 2000:
             message = f"Changes are too large to post here - see changes at {gistUrl}/revisions."
 
-        webhook = discord_webhook.DiscordWebhook(url=webhookUrl)
+        webhook = discord_webhook.DiscordWebhook(url=webhookUrl, content=notifier)
         embed = discord_webhook.DiscordEmbed(title=f"New version deployed! ({state['version']} -> {versionInfo['version']})", description=message, color="8acc0e")
         webhook.add_embed(embed)
         webhook.execute()
