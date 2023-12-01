@@ -1,5 +1,8 @@
 # roblox-fastvariable-tracker
 
+> [!IMPORTANT]
+> This project has been migrated to [MaximumADHD's Roblox Client Tracker](https://github.com/MaximumADHD/Roblox-Client-Tracker/). Please use that from now on. ([source code](https://github.com/MaximumADHD/RCT-Source/blob/main/src/Routines/ScanFastFlags.cs)/[dumped list](https://github.com/MaximumADHD/Roblox-Client-Tracker/blob/roblox/FVariables.txt))
+
 tool that spits out all the fastvariables in a specific roblox studio version, designed for constant tracking overtime to easily see what new stuff roblox is working on, etc
 
 loosely inspired by [maximumadhd's roblox client tracker](https://github.com/MaximumADHD/Roblox-Client-Tracker) though this focuses specifically on fastvariables, tracks lua ones too, as well as fastlog vars, and isn't restricted to being run on windows
